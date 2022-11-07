@@ -7,3 +7,7 @@ node_modules
 
 # IDEs
 .idea
+
+# Scripts
+scripts/*.sql
+!scripts/example.setup.sql

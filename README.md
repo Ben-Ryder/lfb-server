@@ -28,8 +28,12 @@ Then copy the `.env.example` file to `.env` and edit as required to configure se
 
 ### Database Setup
 The server currently does not set up the database for you so this must be done manually.  
-SQL scripts for doing this can be found in the main monorepo [here](https://github.com/Ben-Ryder/local-first-backend/blob/main/projects/server/scripts/example.setup.sql).
+SQL scripts for doing this can be found in the `./scripts` folder:
 
+```bash
+cp scripts/example.setup.sql scripts/setup.sql
+psql postgres -f ./scripts/setup.sql
+```
 
 ## Usage
 The server can be run via npm commands or directly via node.
