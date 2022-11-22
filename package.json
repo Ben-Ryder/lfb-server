@@ -16,6 +16,6 @@
     "start": "node node_modules/@ben-ryder/lfb-server/build/src/main.js"
   },
   "dependencies": {
-    "@ben-ryder/lfb-server": "^0.1.0"
+    "@ben-ryder/lfb-server": "^0.2.0"
   }
 }
